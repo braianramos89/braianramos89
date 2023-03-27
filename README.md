@@ -1,7 +1,6 @@
 <div>
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-<h1 align="center">Hi 👋, I'm Braian Ramos from Argentina</h1>
+
+  <h1 align="center"><b>Hi 👋, I'm Braian Ramos from Argentina</b></h1>
 <h3 align="center">A passionate frontend and backend developer</h3>
 
 </div>
