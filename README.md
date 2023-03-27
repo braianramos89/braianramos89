@@ -1,4 +1,4 @@
-<body style="background-color:#FF0000;">
+<body style="background-color:blue;">
 
   <h1 align="center"><b>Hi 👋, I'm Braian Ramos from Argentina</b></h1>
 <h3 align="center">A passionate frontend and backend developer</h3>
