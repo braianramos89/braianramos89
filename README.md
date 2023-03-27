@@ -1,9 +1,9 @@
-<div>
+<body style="background-color:#FF0000;">
 
   <h1 align="center"><b>Hi 👋, I'm Braian Ramos from Argentina</b></h1>
 <h3 align="center">A passionate frontend and backend developer</h3>
 
-</div>
+</body>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=braianramos89&label=Profile%20views&color=0e75b6&style=flat" alt="braianramos89" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=braianramos89" alt="braianramos89" /></a> </p>
