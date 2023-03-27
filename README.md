@@ -1,7 +1,7 @@
 <body style="background-color:blue;">
 
   <h1 align="center"><b>Hi 👋, I'm Braian Ramos from Argentina</b></h1>
-<h3 align="center">A passionate frontend and backend developer</h3>
+<h3 align="center">I am advanced student of computer engineering and passionate frontend/backend developer </h3>
 
 </body>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=braianramos89&label=Profile%20views&color=0e75b6&style=flat" alt="braianramos89" /> </p>
