@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Building secure, scalable systems for real-world operations
+  Designing systems where reliability, security and performance are not optional
 </p>
 
 <p align="center">
@@ -14,70 +14,91 @@
 
 ---
 
-## 🧠 Who I Am
+## 🧠 Identity
 
-I build systems that need to **work under pressure, scale, and stay secure**.
+I don’t just write code.
 
-* 🎓 Computer Engineer
-* 🎓 Master’s student in Artificial Intelligence
-* 🇦🇷 Argentina
-* 🛠️ Full Stack Engineer with backend & architecture focus
-* 🪖 Designed and built a **military messaging system used in operational environments**
-* 🔐 Specialized in **authentication, authorization & secure system design**
-* ⚙️ Experience across **backend, frontend, infrastructure and networking**
+I design systems that:
+
+* must **work under pressure**
+* must **scale**
+* must **not fail**
 
 ---
 
-## 🪖 Flagship System — SITM3
+## 🪖 Real System. Real Impact.
 
-> A real-world military messaging system. Not a demo. Not a side project.
+### Military Messaging System (SITM3)
 
-### 🧩 Problem
-
-Organizations needed:
-
-* Secure communication between units
-* Message traceability
-* Elimination of manual workflows
-* Controlled access to sensitive information
-
-### 🚀 Solution
-
-A full-stack system with:
-
-* 🔐 RBAC per unit and role
-* 📬 Message lifecycle (creation → distribution → acknowledgment)
-* 📄 Digital signature + PDF generation
-* 🔁 Internal message derivation (multi-user routing)
-* 🧾 Full auditability
-
----
-
-### 🏗️ Architecture Overview
-
-```text id="8o5u2k"
-[ React + TypeScript ]
-          ↓
-   [ Nginx / Reverse Proxy ]
-          ↓
-[ Spring Boot API ]
-          ↓
-[ PostgreSQL Database ]
-
-          ↓
-[ Keycloak IAM (JWT / RBAC) ]
+```diff
++ Production-grade system
++ Used in operational environments
++ Designed for secure communication between military units
 ```
 
 ---
 
-### ⚙️ Stack
+### 🎯 What It Solves
 
-```bash id="rq5c3y"
-Frontend:   React + TypeScript (Vite)
-Backend:    Spring Boot (Java)
-Database:   PostgreSQL
-Auth:       Keycloak (JWT / OAuth2)
-Infra:      Docker • Nginx • Linux
+* Secure communication across structured organizations
+* Controlled information flow between units
+* Traceability of every message
+* Removal of manual / paper-based workflows
+
+---
+
+### ⚙️ System Flow
+
+```text
+User → Creates Message
+      ↓
+System → Validates Role & Permissions
+      ↓
+System → Distributes to Target Units
+      ↓
+Recipients → Read Message
+      ↓
+System → Registers ACK automatically
+      ↓
+System → Tracks full lifecycle
+```
+
+---
+
+### 🏗️ Architecture (Mental Model)
+
+```text
+                ┌────────────────────┐
+                │    React (TS)      │
+                └─────────┬──────────┘
+                          │
+                ┌─────────▼──────────┐
+                │     Nginx Proxy     │
+                └─────────┬──────────┘
+                          │
+                ┌─────────▼──────────┐
+                │  Spring Boot API   │
+                └─────────┬──────────┘
+                          │
+        ┌─────────────────▼─────────────────┐
+        │        PostgreSQL Database        │
+        └─────────────────┬─────────────────┘
+                          │
+                ┌─────────▼──────────┐
+                │   Keycloak (IAM)   │
+                └────────────────────┘
+```
+
+---
+
+### 🔐 Security Layer
+
+```text
+✔ JWT Authentication
+✔ Role-Based Access Control (RBAC)
+✔ Unit-based data isolation
+✔ Controlled message visibility
+✔ Audit-ready architecture
 ```
 
 ---
@@ -88,62 +109,42 @@ Infra:      Docker • Nginx • Linux
   <img src="https://skillicons.dev/icons?i=ts,nodejs,java,spring,react,postgres,docker,nginx,linux,git" />
 </p>
 
-### 🧱 Backend Engineering
+---
 
-* Node.js + TypeScript
-* Java + Spring Boot
-* REST APIs • Microservices • Clean Architecture
+## 🧩 Engineering Philosophy
 
-### 🎨 Frontend
-
-* React + TypeScript
-* Vite
-* Modern UI patterns
-
-### 🐳 Infrastructure
-
-* Docker / Docker Compose
-* Nginx (reverse proxy, SSL)
-* Linux environments
-
-### 🔐 Security
-
-* Keycloak
-* JWT / OAuth2
-* RBAC (Role-Based Access Control)
+```text
+1. Design first, code later
+2. Systems > features
+3. Security is not optional
+4. If you can’t debug it, you don’t understand it
+5. Production is the only truth
+```
 
 ---
 
-## 🧩 Engineering Mindset
+## 🧪 Current Evolution
 
-* 🧠 Design systems, not endpoints
-* 🔍 Debug across layers (app + infra + DB)
-* ⚡ Optimize performance (queries, containers, network)
-* 🔐 Treat security as a core feature
-* 📈 Iterate based on real-world usage
-
----
-
-## 🧪 Current Focus
-
-* 🤖 Artificial Intelligence (Master’s Degree)
-* 🧠 Applying AI to real systems
-* ⚙️ Backend scalability & performance
-* 🔐 Advanced authentication & IAM systems
+```diff
++ Master's Degree in Artificial Intelligence
++ Applying AI to real-world systems
++ Exploring system optimization & automation
++ Deepening knowledge in distributed architectures
+```
 
 ---
 
-## 🧬 What Sets Me Apart
+## 🧬 What Makes Me Different
 
-* Built systems used in **real operational environments**
-* Comfortable working across **full stack + infrastructure**
-* Strong understanding of **security + access control models**
-* Experience debugging **production-level issues**
-* Thinks in **architecture, not just code**
+* Built systems used in **real operational contexts**
+* Works across **backend + frontend + infrastructure**
+* Strong focus on **security & access control**
+* Comfortable debugging **complex production issues**
+* Thinks in **systems, not just code**
 
 ---
 
-## 📫 Contact
+## 📡 Contact
 
 <p align="center">
   <a href="mailto:ramosbraian89@gmail.com">📧 Email</a> •
@@ -152,7 +153,7 @@ Infra:      Docker • Nginx • Linux
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 Activity
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=braianramos89&show_icons=true&theme=tokyonight" />
@@ -164,11 +165,12 @@ Infra:      Docker • Nginx • Linux
 
 ---
 
-## 🧠 Final Thought
+## 🧠 Final Statement
 
-```text id="v3t8hx"
-Build systems as if they will fail.
-Then design them so they don’t.
+```text
+I build systems assuming failure is inevitable.
+
+Then I design them so it isn’t.
 ```
 
 ---
