@@ -156,11 +156,11 @@ System → Tracks full lifecycle
 ## 📊 Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=braianramos89&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=braianramos89&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=braianramos89&theme=tokyonight" />
+  <img src="https://streak-stats.demolab.com/?user=braianramos89&theme=tokyonight" />
 </p>
 
 ---
